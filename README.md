@@ -1,12 +1,50 @@
-# React + Vite
+# ⭐️ Frontend Mentor - Blog Preview Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview](./preview.jpg)
 
-Currently, two official plugins are available:
+## 📑 Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#-overview)
+  - [The Challenge](#-the-challenge)
+  - [Links](#-links)
+- [My Process](#-my-process)
+  - [Built With](#-built-with)
+  - [What I Learned](#-what-i-learned)
+- [Author](#-author)
 
-## Expanding the ESLint configuration
+## 📌 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### The Challenge
+
+The goal was to create a blog preview card with a mobile-first design, ensuring responsiveness across devices, while adhering to best coding practices and achieving a clean, modern aesthetic.
+
+### Screenshot
+
+![Screenshot](./screenshot.jpg)
+
+### Links
+
+- **Solution URL**: [GitHub Repository](https://github.com/pedrogl1990/blog-preview-card)
+- **Live Site URL**: [View Live](https://pedrogl1990.github.io/blog-preview-card/)
+
+## 🛠️ My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- Mobile-first workflow
+- [React](https://reactjs.org/) – JS library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
+
+### What I Learned
+
+This project helped me reinforce my front-end skills in the following areas:
+
+- Building a mobile-first page following best practices
+- Improving my proficiency with React and Tailwind CSS
+
+## 🙋 Author - Pedro Leite
+
+- [Website](https://pedroleite.pt/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/pedrogl1990)
+- [LinkedIn](https://www.linkedin.com/in/pedro-guedes-leite/)
