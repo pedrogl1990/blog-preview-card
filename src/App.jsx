@@ -1,35 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Card from "./components/Card";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+    <main className="bg-bg-yellow min-h-screen h-full flex justify-center items-center px-10 py-5 relative">
+      <Card />
+      <p className="text-xs absolute text-gray-950 bottom-0">
+        Challenge by{" "}
+        <a className="font-bold text-gray-950" href="https://www.frontendmentor.io/" target="_blank">
+          Frontend Mentor.{" "}
+        </a>{" "}
+        Coded by{" "}
+        <a className="font-bold text-gray-950" href="https://github.com/pedrogl1990" target="_blank">
+          Pedro Leite.
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
       </p>
-    </>
-  )
-}
+    </main>
+  );
+};
 
-export default App
+export default App;
